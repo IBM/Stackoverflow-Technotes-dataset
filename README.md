@@ -1,16 +1,18 @@
 # The Stackoverflow-Technotes dataset for IR Evaluation
 
 This project contains two sets of codes. 
-- `benchmark_generator`: These codes are for creation of the Stackoverflow-Technotes dataset, an IT domain specific IR benchmark data from Stackoverflow public forums and IBM Technotes corpus.
-- `benchmark_evaluator`: These codes are for simulating Dynamic Faceted Search experiments as described in the following paper.
+- `benchmark_generator`  contains codes for benchmark data creation from Stackoverflow-Technotes, an IT domain specific IR benchmark data from Stackoverflow public forums and IBM Technotes corpus.
+- `benchmark_evaluator` contains codes for simulating DFS experiments.
+
+Please cite the following paper if you use this dataset -
+
 ```
-@inproceedings{dfs-2020-iswc,
-  title={Dynamic Faceted Search for Technical Support Exploiting Induced Knowledge},
-  author={Mihindukulasooriya, Nandana and Mahindru, Ruchi and Chowdhury, Md Faisal Mahbub and Deng, Yu and Fauceglia, Nicolas Rodolfo and Rossiello, Gaetano and Dash, Sarthak and Gliozzo, Alfio and Tao, Shu},
-  booktitle={International Semantic Web Conference},
-  pages={683--699},
-  year={2020},
-  organization={Springer, Cham}
+@inproceedings{dfs-2021-internlp,
+  title={Dynamic Facet Selection by Maximizing Graded Relevance},
+  author={Glass, Michael and Chowdhury, Md Faisal Mahbub and Deng, Yu and Mahindru, Ruchi and Fauceglia, Nicolas Rodolfo and Gliozzo, Alfio and Mihindukulasooriya, Nandana},
+  booktitle={Proceedings of the 1st Workshop on Interactive Learning for Natural Language Processing (InterNLP 2021)},
+  year={2021},
+  publisher = "Association for Computational Linguistics",
 }
 ```
 
