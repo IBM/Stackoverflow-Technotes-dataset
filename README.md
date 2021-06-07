@@ -4,7 +4,7 @@ This project contains two sets of codes.
 - `benchmark_generator`  contains codes for benchmark data creation from Stackoverflow-Technotes, an IT domain specific IR benchmark data from Stackoverflow public forums and IBM Technotes corpus.
 - `benchmark_evaluator` contains codes for simulating DFS experiments.
 
-Please cite the following paper if you use this dataset -
+For the details about this dataset please see -
 
 ```
 @inproceedings{dfs-2021-internlp,
